@@ -1,0 +1,22 @@
+package:
+    name: tpp
+    version: "4.8.0"
+
+source:
+    fn: download
+    url: http://sourceforge.net/projects/sashimi/files/Trans-Proteomic%20Pipeline%20%28TPP%29/TPP%20v4.8%20%28philae%29%20rev%200/TPP_4.8.0-src.tgz/download
+    sha256: bac1d86a891729a1866dd697233cfcd7f7a6b8acdd65e755517bea9a847a72ca
+
+build:
+    number: 1
+
+requirements:
+    build:
+        - boost
+
+test:
+    commands:
+        - ProteinProphet -h
+
+about:
+    home: http://tools.proteomecenter.org/wiki/index.php?title=Software:TPP
