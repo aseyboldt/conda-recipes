@@ -1,0 +1,21 @@
+package:
+    name: openms
+    version: "2.0.0"
+
+source:
+    git_url: https://github.com/OpenMS/OpenMS
+    git_tag: Release2.0.0
+
+build:
+    number: 1
+
+about:
+    home: https://github.com/OpenMS/OpenMS
+
+requirements:
+    build:
+        - qt
+
+test:
+    commands:
+        - FileMerger --help
