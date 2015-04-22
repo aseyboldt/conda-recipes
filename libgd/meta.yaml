@@ -1,0 +1,14 @@
+package:
+    name: libgd
+    version: "2.1.1"
+
+source:
+    url: "https://github.com/libgd/libgd/archive/gd-2.1.1.tar.gz"
+    fn: gd-2.1.1.tar.gz
+    sha256: a68c69d2fe3eaab9db63b1c4d391dd549c26d3b47bfba484d5ed2d433c55d4d8
+
+build:
+    number: 1
+
+about:
+    home: https://github.com/libgd/libgd
