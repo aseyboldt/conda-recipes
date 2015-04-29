@@ -7,13 +7,18 @@ source:
     git_tag: Release2.0.0
 
 build:
-    number: 1
+    number: 2
 
 about:
     home: https://github.com/OpenMS/OpenMS
 
 requirements:
     build:
+        - qt
+        - boost
+
+    run:
+        - boost
         - qt
 
 test:
