@@ -15,6 +15,11 @@ requirements:
     build:
         - boost
         - gcc
+        - libgd
+
+    run:
+        - boost
+        - libgd
 
 test:
     commands:
