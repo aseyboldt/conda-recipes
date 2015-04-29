@@ -13,7 +13,7 @@ git checkout f6b44d770b6c1b23972a8891753472e60a356253
 cmake . -DBUILD_TYPE=SEQAN
 cmake . -DBUILD_TYPE=WILDMAGIC
 cmake . -DBUILD_TYPE=EIGEN
-cmake . -DBUILD_TYPE=LIBSVN
+cmake . -DBUILD_TYPE=LIBSVM
 
 echo "Build of contrib is complete"
 
